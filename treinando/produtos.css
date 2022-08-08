@@ -259,57 +259,7 @@ nav.show div.icon-close {
 
 /* card maluco de teste*/
 
-main {
-  display: grid;
-  gap: 3.2rem;
-  animation: downtop 700ms 350ms backwards;
-  margin: auto;
-   
-}
 
-.card {
-  position: relative;
-  font-family: var(--body-font);
-}
-
-.card img {
-  
-  height: 16.6rem;
-  object-fit: cover;
-  filter: brightness(0.5);
-  border-radius: 6px;
-  transition: all 200ms;
-}
-
-.card img:hover {
-  transform: scale(1.1);
-  opacity: 0.4;
-}
-
-.card h2 {
-  position: absolute;
-  bottom: 5.2rem;
-  left: 2.8rem;
-  font-size: 4rem;
-  font-weight: 800;
-  display: flex;
-  flex-direction: column;
-  gap: 2.8rem;
-}
-
-.card h2 span {
-  border-radius: 2rem;
-  background-color: var(--base-color-second);
-  font-size: var(--fs-body);
-  font-weight: 400;
-  color: var(--fc-secondary-dark);
-  padding: 0 1.6rem;
-  width: fit-content;
-  height: 3.8rem;
-  display: inline-flex;
-  align-items: center;
-
-}
 
 
 
